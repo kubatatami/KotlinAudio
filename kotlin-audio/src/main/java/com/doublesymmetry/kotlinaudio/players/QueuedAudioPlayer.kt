@@ -147,7 +147,7 @@ class QueuedAudioPlayer(context: Context, playerConfig: PlayerConfig = PlayerCon
      * Play the previous item in the queue, if any. Otherwise, starts the current item from the beginning.
      */
     fun previous() {
-        exoPlayer.seekToPrevious()
+        exoPlayer.seekToPreviousMediaItem()
     }
 
     /**
